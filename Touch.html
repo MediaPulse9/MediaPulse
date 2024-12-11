@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Touch Telecom Services - Online Store</title>
+    <style>
+        /* Reset some basic styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Navigation bar styles */
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 18px;
+            margin: 0 15px;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        /* Main container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        header h1 {
+            font-size: 36px;
+            color: #333;
+        }
+
+        header p {
+            font-size: 18px;
+            color: #666;
+        }
+
+        /* Product listing styles */
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .product {
+            width: 30%;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .product img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .product h2 {
+            color: #333;
+            margin: 15px 0;
+        }
+
+        .product p {
+            color: #666;
+            font-size: 16px;
+        }
+
+        .product .price {
+            font-size: 20px;
+            font-weight: bold;
+            color: #28a745;
+            margin-top: 10px;
+        }
+
+        .product button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 15px;
+        }
+
+        .product button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Footer styles */
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            margin-top: 40px;
+        }
+
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+
+       /* Positioning the Instagram button in the bottom-right corner */
+    .Instagram-btn {
+      position: fixed;
+      bottom: 20px; /* Distance from the bottom */
+      right: 20px;  /* Distance from the right */
+      z-index: 1000;
+    }
+
+    .Instagram-btn img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;  /* Make it round */
+      transition: transform 0.3s ease;  /* Smooth transform effect */
+    }
+
+    .Instagram-btn img:hover {
+      transform: scale(1.1);  /* Slightly enlarge the image on hover */
+    }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation bar -->
+    <nav>
+        <a href="C:\Users\Lenovo\Desktop\My Website\index.html">Home</a>
+        <a href="C:\Users\Lenovo\Desktop\My Website\Social Media.html">Social Media</a>
+        <a href="C:\Users\Lenovo\Desktop\My Website\telecom.html">Telecom Recharge</a>
+        <a href="C:\Users\Lenovo\Desktop\My Website\Game Top-Ups.html">Game Top-ups</a>
+    </nav>
+
+    <!-- Main content -->
+    <div class="container">
+        <header>
+            <h1>Welcome to Our Touch Telecom Recharge Store</h1>
+            <p>Top up your Touch prepaid or postpaid accounts with ease. Recharge and stay connected!</p>
+        </header>
+
+        <div class="products">
+            <!-- Touch Telecom Recharge -->
+            <div class="product">
+                <img src="C:\Users\Lenovo\Desktop\My Website\Touch.png" alt="Touch Telecom Recharge">
+                <h2>Touch Prepaid Vouchers</h2>
+                <p>Choose from a variety of recharge options to keep your Touch mobile services active and connected.</p>
+                <ul>
+                    <li>$1.67 - $2.10</li>
+                    <li>$3.79 - $4.50</li>
+                    <li>$4.50 - $5.30</li>
+                </ul>
+            </div>
+
+            <!-- Touch Data Packages -->
+            <div class="product">
+                <img src="C:\Users\Lenovo\Desktop\My Website\Touch.png" alt="Touch Data Packages">
+                <h2>Touch Validity Days</h2>
+                <p>Enjoy seamless access and more with affordable validity day packages.</p>
+                <ul>
+                    <li>30D - $3.00</li>
+                    <li>60D - $4.50</li>
+                    <li>90D - $7.00</li>
+                    <li>180D - $13.00</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a> | <a href="#">Contact Us</a>
+        </div>
+        <p>&copy; 2024 Touch Telecom Recharge Store | All Rights Reserved</p>
+    </footer>
+
+   <!-- Instagram button -->
+  <a href="https://www.instagram.com/media_pulse25/profilecard/?igsh=MW9ic3BjZHhoYjF1" class="Instagram-btn" target="_blank">
+    <img src="C:/Users/Lenovo/Desktop/My Website/instagram.jpg" width="50" height="50" alt="Instagram">
+  </a>
+
+</body>
+</html>

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Top-ups - Online Store</title>
+    <style>
+        /* Reset some basic styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Navigation bar styles */
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 18px;
+            margin: 0 15px;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        /* Main container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        header h1 {
+            font-size: 36px;
+            color: #333;
+        }
+
+        header p {
+            font-size: 18px;
+            color: #666;
+        }
+
+        /* Product listing styles */
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .product {
+            width: 30%;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .product img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .product h2 {
+            color: #333;
+            margin: 15px 0;
+        }
+
+        .product p {
+            color: #666;
+            font-size: 16px;
+        }
+
+        .product .price {
+            font-size: 20px;
+            font-weight: bold;
+            color: #28a745;
+            margin-top: 10px;
+        }
+
+        .product button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 15px;
+        }
+
+        .product button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Footer styles */
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            margin-top: 40px;
+        }
+
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+
+        /* Positioning the Instagram button in the bottom-right corner */
+    .Instagram-btn {
+      position: fixed;
+      bottom: 20px; /* Distance from the bottom */
+      right: 20px;  /* Distance from the right */
+      z-index: 1000;
+    }
+
+    .Instagram-btn img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;  /* Make it round */
+      transition: transform 0.3s ease;  /* Smooth transform effect */
+    }
+
+    .Instagram-btn img:hover {
+      transform: scale(1.1);  /* Slightly enlarge the image on hover */
+    }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation bar -->
+    <nav>
+        <a href="C:\Users\Lenovo\Desktop\My Website\index.html">Home</a>
+        <a href="C:\Users\Lenovo\Desktop\My Website\Social Media.html">Social Media</a>
+        <a href="C:\Users\Lenovo\Desktop\My Website\telecom.html">Telecom Recharge</a>
+    </nav>
+
+    <!-- Main content -->
+    <div class="container">
+        <header>
+            <h1>Game Top-ups Store</h1>
+            <p>Top-up your game account with credits for your favorite games!</p>
+        </header>
+
+        <div class="products">
+            <!-- Product 1: Fortnite -->
+            <div class="product">
+                <a href="C:\Users\Lenovo\Desktop\My Website\Fortnite.html">
+                <img src="C:\Users\Lenovo\Desktop\My Website\Fortnite.jpg" alt="Fortnite V-Bucks">
+                <h2>Fortnite</h2></a>
+                <p>Get V-Bucks to unlock skins, emotes, and more in Fortnite!</p>
+            </div>
+
+            <!-- Product 2: PUBG -->
+            <div class="product">
+                <a href="C:\Users\Lenovo\Desktop\My Website\Pubg.html">
+                <img src="C:\Users\Lenovo\Desktop\My Website\Pubg.png" alt="PUBG UC">
+                <h2>PUBG</h2></a>
+                <p>Get UC to unlock skins, crates, and exclusive items in PUBG!</p>
+            </div>
+
+            <!-- Product 3: FreeFire -->
+            <div class="product">
+                <a href="C:\Users\Lenovo\Desktop\My Website\FreeFire.html">
+                <img src="C:\Users\Lenovo\Desktop\My Website\Free_Fire.webp" alt="FreeFire Diamonds">
+                <h2>FreeFire</h2></a>
+                <p>Get Diamonds to unlock skins, characters, and exclusive items in Free Fire!</p>
+            </div>
+               <!-- Product 4: PSN -->
+               <div class="product">
+                <a href="C:\Users\Lenovo\Desktop\My Website\PSN.html">
+                <img src="C:\Users\Lenovo\Desktop\My Website\PSN.png" alt="PLaystation Network">
+                <h2>Playstation Network</h2></a>
+                <p>Get PSN Credits to access exclusive games, content, and online multiplayer on PlayStation!</p>
+            </div>
+               <!-- Product 5: Steam -->
+               <div class="product">
+                <a href="C:\Users\Lenovo\Desktop\My Website\Steam.html">
+                <img src="C:\Users\Lenovo\Desktop\My Website\Steam.jpg" alt="Steam">
+                <h2>Steam</h2></a>
+                <p>Get Steam Credits to unlock games, DLCs, and exclusive content on Steam!</p>
+            </div>
+               <!-- Product 6: Xbox -->
+               <div class="product">
+                <a href="C:\Users\Lenovo\Desktop\My Website\Xbox.html">
+                <img src="C:\Users\Lenovo\Desktop\My Website\Xbox.png" alt="Xbox">
+                <h2>Xbox</h2></a>
+                <p>Get Xbox Gift Cards to unlock games, content, and Xbox Live Gold membership!</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="C:\Users\Lenovo\Desktop\My Website\privicy policy.html">Privacy Policy</a> | <a href="C:\Users\Lenovo\Desktop\My Website\Terms of Service.html">Terms of Service</a> | <a href="C:\Users\Lenovo\Desktop\My Website\contact us.html">Contact Us</a>        </div>
+        <p>&copy; 2024 Game Top-ups Store | All Rights Reserved</p>
+    </footer>
+
+    <!-- Instagram button -->
+  <a href="https://www.instagram.com/media_pulse25/profilecard/?igsh=MW9ic3BjZHhoYjF1" class="Instagram-btn" target="_blank">
+    <img src="C:/Users/Lenovo/Desktop/My Website/instagram.jpg" width="50" height="50" alt="Instagram">
+  </a>
+</body>
+</html>
